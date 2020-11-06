@@ -6,9 +6,6 @@ import json
 import psutil
 from datetime import datetime, time, timedelta
 
-#Reference: https://stackoverflow.com/questions/57726047/sqlalchemy-expression-language-and-sqlites-on-delete-cascade
-from sqlalchemy import event
-from sqlalchemy.engine import Engine
 from sqlite3 import Connection as SQLite3Connection
 import subprocess
 import nw_logging
