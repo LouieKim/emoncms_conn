@@ -2,7 +2,6 @@ from flask import Blueprint
 from gems_modbus import GemsModbus
 
 from flask import Flask, jsonify, redirect, url_for, request
-from sqlalchemy import and_, func
 import json
 import psutil
 from datetime import datetime, time, timedelta
